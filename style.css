@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(242, 166, 112);
+    color: rgb(6, 63, 65);
+}
+input{
+    border-radius: 15px;
+    font-size:larger ;
+    border: 3px solid rgb(7, 141, 99);
+    outline: none;
+}
+button{
+    margin: 15px auto;
+    font-size: medium;
+    padding: 8px 15px;
+    border-radius: 15px;
+    background-color: rgba(97, 246, 228, 0.479);
+    color: antiquewhite;
+    border:  3px solid  rgb(74, 199, 199);;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+i{
+    color: aqua;
+    padding: 8px 8px;
+}
+.card-img , img{
+    margin: 8px auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 70vw;
+    min-width: 330px;
+    text-align: center;
+    padding: 35px 20px;
+}
+h1{
+    padding: 15px 15px;
+    color:rgba(14, 225, 207, 0.527);
+}
+.card{
+    width: 25rem;
+    background:#202124;
+    box-shadow: 1px 2px 3px #454545;
+    padding: 15px;
+    margin: 25px;
+}
+.card-title{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.card-subHeading{
+    font-size: medium;
+    color: rgb(87,87,87);
+}
+#profile .card{
+    border: 1px solid rgba(234, 178, 243, 0.073);
+    border-radius: 15px;
+}
+
+#repo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+#repo .card{
+    border: 2px solid rgba(248, 138, 87, 0);
+    border-radius: 15px;
+}
